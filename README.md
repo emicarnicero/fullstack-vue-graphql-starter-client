@@ -1,3 +1,3 @@
 # vue client
 
-# https://node-app-client.herokuapp.com/
+# https://node-fullstack-app-client.herokuapp.com/
