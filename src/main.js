@@ -11,9 +11,8 @@ Vue.use(VueApollo);
 
 // Setup ApolloCliente
 export const defaultClient = new ApolloClient({
-  uri: process.env.SERVER_URI,
   // uri: "http://localhost:4000/graphql",
-  uri: "https://fullstack-vue-graphql-backend.herokuapp.com/graphql",
+  uri: "https://node-fullstack-app-server.herokuapp.com/graphql",
   // Include auth token to requests made to backend
   fetchOptions: {
     credentials: "include"
