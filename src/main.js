@@ -19,9 +19,10 @@ export const defaultClient = new ApolloClient({
   },
   // Operation adds the token to an authorization header, wich is sent to backend
   request: operation => {
-    if (!localStorage.authorization) {
+    if (!localStorage.token) {
       localStorage.setItem("token", "");
     }
+
     operation.setContext({
       headers: {
         authorization: localStorage.getItem("token")
@@ -49,5 +50,8 @@ new Vue({
   router,
   store,
   vuetify,
-  render: h => h(App)
+  render: h => h(App),
+  created() {
+    this.$store.dispatch("getCurrentUser");
+  }
 }).$mount("#app");
