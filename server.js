@@ -1,37 +1,37 @@
-const express = require("express");
-const serveStatic = require("serve-static");
-const path = require("path");
-var history = require("connect-history-api-fallback");
-
-app = express();
-app.use(serveStatic(path.join(__dirname, "dist")));
-app.use(history());
-
-const port = process.env.PORT || 80;
-app.listen(port);
-
 // const express = require("express");
+// const serveStatic = require("serve-static");
 // const path = require("path");
-// const history = require("connect-history-api-fallback");
+// var history = require("connect-history-api-fallback");
 
-// const app = express();
+// app = express();
+// app.use(serveStatic(path.join(__dirname, "dist")));
+// app.use(history());
 
-// const staticFileMiddleware = express.static(path.join(__dirname + "/dist"));
+// const port = process.env.PORT || 80;
+// app.listen(port);
 
-// app.use(staticFileMiddleware);
-// app.use(
-//   history({
-//     disableDotRule: true,
-//     verbose: true
-//   })
-// );
-// app.use(staticFileMiddleware);
+const express = require("express");
+const path = require("path");
+const history = require("connect-history-api-fallback");
 
-// app.get("/", function(req, res) {
-//   res.render(path.join(__dirname + "/dist/index.html"));
-// });
+const app = express();
 
-// var server = app.listen(process.env.PORT || 80, function() {
-//   var port = server.address().port;
-//   console.log("App now running on port", port);
-// });
+const staticFileMiddleware = express.static(path.join(__dirname + "/dist"));
+
+app.use(staticFileMiddleware);
+app.use(
+  history({
+    disableDotRule: true,
+    verbose: true
+  })
+);
+app.use(staticFileMiddleware);
+
+app.get("/", function(req, res) {
+  res.render(path.join(__dirname + "/dist/index.html"));
+});
+
+var server = app.listen(process.env.PORT || 80, function() {
+  var port = server.address().port;
+  console.log("App now running on port", port);
+});
