@@ -5,7 +5,7 @@
         <v-flex xs12 sm8 md4>
           <v-card class="elevation-12">
             <v-toolbar color="primary" dark flat>
-              <v-toolbar-title>Log In</v-toolbar-title>
+              <v-toolbar-title>Sign In</v-toolbar-title>
               <v-spacer></v-spacer>
             </v-toolbar>
             <v-card-text>
@@ -46,8 +46,6 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-
 export default {
   name: "signin",
   data() {
@@ -55,17 +53,6 @@ export default {
       username: "",
       password: ""
     };
-  },
-  computed: {
-    ...mapGetters(["user"])
-  },
-  watch: {
-    user(value) {
-      // if user value changes from null to object, redirect to home page
-      if (value) {
-        this.$router.push("/");
-      }
-    }
   },
   methods: {
     handleSigninUser() {

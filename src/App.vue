@@ -10,13 +10,23 @@
       </v-app-bar>
       <v-card tile>
         <v-list color="primary">
-          <v-list-item v-for="item in items" :key="item.title" :to="item.link">
+          <v-list-item v-for="item in drawerItems" :key="item.title" :to="item.link">
             <v-list-item-icon>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-icon>
 
             <v-list-item-content>
               <v-list-item-title>{{ item.title }}</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+
+          <v-list-item v-if="user" text @click="handleSignoutUser">
+            <v-list-item-icon>
+              <v-icon>exit_to_app</v-icon>
+            </v-list-item-icon>
+
+            <v-list-item-content>
+              <v-list-item-title>Signout</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -45,9 +55,13 @@
 
         <!-- Horizontal Navbar links -->
         <v-toolbar-items class="hidden-xs-only">
-          <v-btn text v-for="item in items" :key="item.title" :to="item.link">
+          <v-btn text v-for="item in sideNavItems" :key="item.title" :to="item.link">
             <v-icon class="hidden-sm-only">{{item.icon}}</v-icon>
             {{item.title}}
+          </v-btn>
+
+          <v-btn v-if="user" text @click="handleSignoutUser">
+            <v-icon class="hidden-sm-only">exit_to_app</v-icon>Signout
           </v-btn>
         </v-toolbar-items>
       </v-app-bar>
@@ -65,21 +79,105 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   name: "App",
   data() {
     return {
       sideNav: false,
-      items: [
-        { icon: "chat", title: "Posts", link: "/posts" },
-        { icon: "lock_open", title: "Sign In", link: "/signin" },
-        { icon: "create", title: "Sign Up", link: "/signup" }
+      sideNavMenuItems: [
+        {
+          icon: "chat",
+          title: "Posts",
+          link: "/posts",
+          showAuthenticated: null
+        },
+        {
+          icon: "lock_open",
+          title: "Sign In",
+          link: "/signin",
+          showAuthenticated: false
+        },
+        {
+          icon: "create",
+          title: "Sign Up",
+          link: "/signup",
+          showAuthenticated: false
+        },
+        {
+          icon: "account_box",
+          title: "Profile",
+          link: "/profile",
+          showAuthenticated: true
+        }
+      ],
+      drawerMenuItems: [
+        {
+          icon: "chat",
+          title: "Posts",
+          link: "/posts",
+          showAuthenticated: null
+        },
+        {
+          icon: "lock_open",
+          title: "Sign In",
+          link: "/signin",
+          showAuthenticated: false
+        },
+        {
+          icon: "create",
+          title: "Sign Up",
+          link: "/signup",
+          showAuthenticated: false
+        },
+        {
+          icon: "stars",
+          title: "Create Post",
+          link: "/post/add",
+          showAuthenticated: true
+        },
+        {
+          icon: "account_box",
+          title: "Profile",
+          link: "/profile",
+          showAuthenticated: true
+        }
       ]
     };
   },
   methods: {
+    handleSignoutUser() {
+      this.$store.dispatch("signoutUser");
+    },
     toggleSideNav() {
       this.sideNav = !this.sideNav;
+    }
+  },
+  watch: {
+    user(value) {
+      if (!value) {
+        this.$router.push("/signin");
+      } else {
+        this.$router.push("/");
+      }
+    }
+  },
+  computed: {
+    ...mapGetters(["user"]),
+    sideNavItems() {
+      return this.sideNavMenuItems.filter(
+        i =>
+          (i.showAuthenticated == (this.user !== null)) |
+          (i.showAuthenticated === null)
+      );
+    },
+    drawerItems() {
+      return this.drawerMenuItems.filter(
+        i =>
+          (i.showAuthenticated == (this.user !== null)) |
+          (i.showAuthenticated === null)
+      );
     }
   }
 };
