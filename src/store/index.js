@@ -27,6 +27,9 @@ export default new Vuex.Store({
     },
     setUser: (state, payload) => {
       state.user = payload;
+    },
+    clearUser: state => {
+      state.user = null;
     }
   },
   actions: {
@@ -63,6 +66,7 @@ export default new Vuex.Store({
         });
     },
     signinUser: ({ commit }, payload) => {
+      localStorage.setItem("token", "");
       // Use apolloClient to fire signinUser query
       apolloClient
         .mutate({
@@ -80,6 +84,7 @@ export default new Vuex.Store({
         });
     },
     signupUser: ({ commit }, payload) => {
+      localStorage.setItem("token", "");
       // Use apolloClient to fire signupUser query
       apolloClient
         .mutate({
@@ -93,6 +98,12 @@ export default new Vuex.Store({
         .catch(err => {
           console.error(err);
         });
+    },
+    signoutUser: async ({ commit }) => {
+      commit("clearUser");
+      localStorage.setItem("token", "");
+
+      await apolloClient.resetStore();
     }
   },
   modules: {},

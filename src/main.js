@@ -17,7 +17,7 @@ export const defaultClient = new ApolloClient({
   fetchOptions: {
     credentials: "include"
   },
-  // Operation adds the token to an authorization header, wich is sent to backend
+  // Operation adds the token to an authorization header, which is sent to backend
   request: operation => {
     if (!localStorage.token) {
       localStorage.setItem("token", "");
