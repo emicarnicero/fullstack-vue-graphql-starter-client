@@ -159,7 +159,7 @@ export default {
       if (!value) {
         this.$router.push("/signin");
       } else {
-        this.$router.push("/");
+        if (this.$route.path !== "/") this.$router.push("/");
       }
     }
   },
