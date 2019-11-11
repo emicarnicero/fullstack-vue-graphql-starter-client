@@ -1,37 +1,40 @@
-import Vue from "vue";
-import App from "./App.vue";
-import router from "./router";
-import store from "./store";
-import vuetify from "./plugins/vuetify";
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import vuetify from './plugins/vuetify';
 
-import ApolloClient from "apollo-boost";
-import VueApollo from "vue-apollo";
+import ApolloClient from 'apollo-boost';
+import VueApollo from 'vue-apollo';
+
+import FormAlert from './components/shared/FormAlert';
+Vue.component('form-alert', FormAlert);
 
 Vue.use(VueApollo);
 
 // Setup ApolloCliente
 export const defaultClient = new ApolloClient({
   // uri: "http://localhost:4000/graphql",
-  uri: "https://node-fullstack-app-server.herokuapp.com/graphql",
+  uri: 'https://node-fullstack-app-server.herokuapp.com/graphql',
   // Include auth token to requests made to backend
   fetchOptions: {
-    credentials: "include"
+    credentials: 'include'
   },
   // Operation adds the token to an authorization header, which is sent to backend
   request: operation => {
     if (!localStorage.token) {
-      localStorage.setItem("token", "");
+      localStorage.setItem('token', '');
     }
 
     operation.setContext({
       headers: {
-        authorization: localStorage.getItem("token")
+        authorization: localStorage.getItem('token')
       }
     });
   },
   onError: ({ graphqlErrors, networkError }) => {
     if (networkError) {
-      console.log("[network error]", networkError);
+      console.log('[network error]', networkError);
     }
     if (graphqlErrors) {
       for (let err of graphqlErrors) {
@@ -52,6 +55,6 @@ new Vue({
   vuetify,
   render: h => h(App),
   created() {
-    this.$store.dispatch("getCurrentUser");
+    this.$store.dispatch('getCurrentUser');
   }
-}).$mount("#app");
+}).$mount('#app');

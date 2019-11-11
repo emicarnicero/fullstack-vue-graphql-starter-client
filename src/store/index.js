@@ -1,14 +1,14 @@
-import Vue from "vue";
-import Vuex from "vuex";
-import router from "../router/index.js";
+import Vue from 'vue';
+import Vuex from 'vuex';
+import router from '../router/index.js';
 
-import { defaultClient as apolloClient } from "../main";
+import { defaultClient as apolloClient } from '../main';
 import {
   GET_POSTS,
   SIGNUP_USER,
   SIGNIN_USER,
   GET_CURRENT_USER
-} from "./queries";
+} from './queries';
 
 Vue.use(Vuex);
 
@@ -16,7 +16,8 @@ export default new Vuex.Store({
   state: {
     posts: [],
     loading: false,
-    user: null
+    user: null,
+    error: null
   },
   mutations: {
     setPosts: (state, payload) => {
@@ -30,43 +31,51 @@ export default new Vuex.Store({
     },
     clearUser: state => {
       state.user = null;
+    },
+    setError: (state, payload) => {
+      state.error = payload;
+    },
+    clearError: state => {
+      state.error = null;
     }
   },
   actions: {
     getCurrentUser: ({ commit }) => {
-      commit("setLoading", true);
+      commit('setLoading', true);
       apolloClient
         .query({
           query: GET_CURRENT_USER
         })
         .then(({ data }) => {
-          commit("setLoading", false);
+          commit('setLoading', false);
           // Add user data to state
-          commit("setUser", data.getCurrentUser);
+          commit('setUser', data.getCurrentUser);
         })
         .catch(err => {
-          commit("setLoading", false);
+          commit('setLoading', false);
           console.error(err);
         });
     },
     getPosts: ({ commit }) => {
-      commit("setLoading", true);
+      commit('setLoading', true);
       // Use apolloClient to fire getPosts query
       apolloClient
         .query({
           query: GET_POSTS
         })
         .then(({ data }) => {
-          commit("setPosts", data.getPosts);
-          commit("setLoading", false);
+          commit('setPosts', data.getPosts);
+          commit('setLoading', false);
         })
         .catch(err => {
-          commit("setLoading", false);
+          commit('setLoading', false);
           console.error(err);
         });
     },
     signinUser: ({ commit }, payload) => {
-      localStorage.setItem("token", "");
+      commit('clearError');
+      commit('setLoading', true);
+      localStorage.setItem('token', '');
       // Use apolloClient to fire signinUser query
       apolloClient
         .mutate({
@@ -74,17 +83,20 @@ export default new Vuex.Store({
           variables: payload
         })
         .then(({ data }) => {
-          localStorage.setItem("token", data.signinUser.token);
+          localStorage.setItem('token', data.signinUser.token);
+          commit('setLoading', false);
           // To make sure created method is run in main.js (we run getCurrentUser),
           // reload the page
           router.go();
         })
         .catch(err => {
+          commit('setError', err);
+          commit('setLoading', false);
           console.error(err);
         });
     },
     signupUser: ({ commit }, payload) => {
-      localStorage.setItem("token", "");
+      localStorage.setItem('token', '');
       // Use apolloClient to fire signupUser query
       apolloClient
         .mutate({
@@ -92,7 +104,7 @@ export default new Vuex.Store({
           variables: payload
         })
         .then(({ data }) => {
-          localStorage.setItem("token", data.signupUser.token);
+          localStorage.setItem('token', data.signupUser.token);
           router.go();
         })
         .catch(err => {
@@ -100,8 +112,8 @@ export default new Vuex.Store({
         });
     },
     signoutUser: async ({ commit }) => {
-      commit("clearUser");
-      localStorage.setItem("token", "");
+      commit('clearUser');
+      localStorage.setItem('token', '');
 
       await apolloClient.resetStore();
     }
@@ -110,6 +122,7 @@ export default new Vuex.Store({
   getters: {
     posts: state => state.posts,
     loading: state => state.loading,
-    user: state => state.user
+    user: state => state.user,
+    error: state => state.error
   }
 });
