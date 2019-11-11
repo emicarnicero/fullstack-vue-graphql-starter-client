@@ -73,74 +73,80 @@
         <transition name="fade" mode="out-in">
           <router-view />
         </transition>
+
+        <v-snackbar color="success" v-model="authSnackbar" bottom left :timeout="3000">
+          <h3>You are now signed in!</h3>
+          <v-btn dark text @click="authSnackbar = false">Close</v-btn>
+        </v-snackbar>
       </v-container>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from 'vuex';
 
 export default {
-  name: "App",
+  name: 'App',
   data() {
     return {
+      authSnackbar: false,
       sideNav: false,
       sideNavMenuItems: [
         {
-          icon: "chat",
-          title: "Posts",
-          link: "/posts",
+          icon: 'chat',
+          title: 'Posts',
+          link: '/posts',
           showAuthenticated: null
         },
         {
-          icon: "lock_open",
-          title: "Sign In",
-          link: "/signin",
+          icon: 'lock_open',
+          title: 'Sign In',
+          link: '/signin',
           showAuthenticated: false
         },
         {
-          icon: "create",
-          title: "Sign Up",
-          link: "/signup",
+          icon: 'create',
+          title: 'Sign Up',
+          link: '/signup',
           showAuthenticated: false
         },
         {
-          icon: "account_box",
-          title: "Profile",
-          link: "/profile",
+          icon: 'account_box',
+          title: 'Profile',
+          link: '/profile',
           showAuthenticated: true
         }
       ],
       drawerMenuItems: [
         {
-          icon: "chat",
-          title: "Posts",
-          link: "/posts",
+          icon: 'chat',
+          title: 'Posts',
+          link: '/posts',
           showAuthenticated: null
         },
         {
-          icon: "lock_open",
-          title: "Sign In",
-          link: "/signin",
+          icon: 'lock_open',
+          title: 'Sign In',
+          link: '/signin',
           showAuthenticated: false
         },
         {
-          icon: "create",
-          title: "Sign Up",
-          link: "/signup",
+          icon: 'create',
+          title: 'Sign Up',
+          link: '/signup',
           showAuthenticated: false
         },
         {
-          icon: "stars",
-          title: "Create Post",
-          link: "/post/add",
+          icon: 'stars',
+          title: 'Create Post',
+          link: '/post/add',
           showAuthenticated: true
         },
         {
-          icon: "account_box",
-          title: "Profile",
-          link: "/profile",
+          icon: 'account_box',
+          title: 'Profile',
+          link: '/profile',
           showAuthenticated: true
         }
       ]
@@ -148,23 +154,27 @@ export default {
   },
   methods: {
     handleSignoutUser() {
-      this.$store.dispatch("signoutUser");
+      this.$store.dispatch('signoutUser');
     },
     toggleSideNav() {
       this.sideNav = !this.sideNav;
     }
   },
   watch: {
-    user(value) {
-      if (!value) {
-        this.$router.push("/signin");
+    user(newValue, oldValue) {
+      if (!newValue) {
+        this.$router.push('/signin');
       } else {
-        if (this.$route.path !== "/") this.$router.push("/");
+        if (this.$route.path !== '/') this.$router.push('/');
+      }
+
+      if (oldValue === null) {
+        this.authSnackbar = true;
       }
     }
   },
   computed: {
-    ...mapGetters(["user"]),
+    ...mapGetters(['user']),
     sideNavItems() {
       return this.sideNavMenuItems.filter(
         i =>
