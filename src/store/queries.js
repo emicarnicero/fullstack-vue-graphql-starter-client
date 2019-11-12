@@ -13,6 +13,19 @@ export const GET_POSTS = gql`
 export const SIGNIN_USER = gql`
   mutation($username: String!, $password: String!) {
     signinUser(username: $username, password: $password) {
+      user {
+        _id
+        username
+        email
+        password
+        avatar
+        joinDate
+        favorites {
+          _id
+          title
+          imageUrl
+        }
+      }
       token
     }
   }
@@ -21,6 +34,19 @@ export const SIGNIN_USER = gql`
 export const SIGNUP_USER = gql`
   mutation($email: String!, $username: String!, $password: String!) {
     signupUser(email: $email, username: $username, password: $password) {
+      user {
+        _id
+        username
+        email
+        password
+        avatar
+        joinDate
+        favorites {
+          _id
+          title
+          imageUrl
+        }
+      }
       token
     }
   }

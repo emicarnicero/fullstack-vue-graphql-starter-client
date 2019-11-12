@@ -75,8 +75,8 @@
         </transition>
 
         <v-snackbar color="success" v-model="authSnackbar" bottom left :timeout="3000">
-          <h3>You are now signed in!</h3>
-          <v-btn dark text @click="authSnackbar = false">Close</v-btn>
+          <h3>{{snackbarMessage}}</h3>
+          <v-btn dark text @click="closeSnackbar()">Close</v-btn>
         </v-snackbar>
       </v-container>
     </v-content>
@@ -158,6 +158,10 @@ export default {
     },
     toggleSideNav() {
       this.sideNav = !this.sideNav;
+    },
+    closeSnackbar() {
+      this.authSnackbar = false;
+      this.$store.commit('clearSnackbarMessage');
     }
   },
   watch: {
@@ -168,13 +172,13 @@ export default {
         if (this.$route.path !== '/') this.$router.push('/');
       }
 
-      if (oldValue === null) {
+      if (oldValue === null && this.snackbarMessage != '') {
         this.authSnackbar = true;
       }
     }
   },
   computed: {
-    ...mapGetters(['user']),
+    ...mapGetters(['user', 'snackbarMessage']),
     sideNavItems() {
       return this.sideNavMenuItems.filter(
         i =>
