@@ -17,42 +17,25 @@
         </v-carousel-item>
       </v-carousel>
     </v-flex>
-
-    <!-- <div v-if="$apollo.loading">Loading...</div>
-    <ul v-else v-for="post in getPosts" :key="post._id">
-      <li>{{post.title}} {{post.imageUrl}} {{post.description}}</li>
-      <li>{{post.likes}}</li>
-    </ul>-->
-
-    <!-- <ApolloQuery :query="getPostsQuery">
-      <template slot-scope="{ result: {loading, error, data } }">
-        <div v-if="loading">Loading...</div>
-        <div v-else-if="error">Error! {{error.message}}</div>
-        <ul v-else v-for="post in data.getPosts" :key="post._id">
-          <li>{{post.title}} {{post.imageUrl}} {{post.description}}</li>
-          <li>{{post.likes}}</li>
-        </ul>
-      </template>
-    </ApolloQuery>-->
   </v-container>
 </template>
 
 <script>
-import { gql } from "apollo-boost";
-import { mapGetters } from "vuex";
+import { gql } from 'apollo-boost';
+import { mapGetters } from 'vuex';
 
 export default {
-  name: "Home",
+  name: 'Home',
   created() {
     this.handleGetCarouselPosts();
   },
   computed: {
-    ...mapGetters(["loading", "posts"])
+    ...mapGetters(['loading', 'posts', 'user'])
   },
   methods: {
     handleGetCarouselPosts() {
       // reach out the Vuex store, fire action that gets posts for carousel
-      this.$store.dispatch("getPosts");
+      this.$store.dispatch('getPosts');
     }
   }
 };
