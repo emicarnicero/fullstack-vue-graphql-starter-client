@@ -10,7 +10,11 @@
       </v-app-bar>
       <v-card tile>
         <v-list color="primary">
-          <v-list-item v-for="item in drawerItems" :key="item.title" :to="item.link">
+          <v-list-item
+            v-for="item in drawerItems"
+            :key="item.title"
+            :to="item.link"
+          >
             <v-list-item-icon>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-icon>
@@ -38,7 +42,9 @@
       <v-app-bar flat dark color="primary">
         <v-app-bar-nav-icon @click="toggleSideNav"></v-app-bar-nav-icon>
         <v-toolbar-title class="hidden-xs-only">
-          <router-link to="/" tag="span" style="cursor:pointer">VueShare</router-link>
+          <router-link to="/" tag="span" style="cursor:pointer"
+            >VueShare</router-link
+          >
         </v-toolbar-title>
 
         <v-spacer></v-spacer>
@@ -55,9 +61,14 @@
 
         <!-- Horizontal Navbar links -->
         <v-toolbar-items class="hidden-xs-only">
-          <v-btn text v-for="item in sideNavItems" :key="item.title" :to="item.link">
-            <v-icon class="hidden-sm-only">{{item.icon}}</v-icon>
-            {{item.title}}
+          <v-btn
+            text
+            v-for="item in sideNavItems"
+            :key="item.title"
+            :to="item.link"
+          >
+            <v-icon class="hidden-sm-only">{{ item.icon }}</v-icon>
+            {{ item.title }}
           </v-btn>
 
           <v-btn v-if="user" text @click="handleSignoutUser">
@@ -74,9 +85,15 @@
           <router-view />
         </transition>
 
-        <v-snackbar color="success" v-model="authSnackbar" bottom left :timeout="3000">
-          <h3>{{snackbarMessage}}</h3>
-          <v-btn dark text @click="closeSnackbar()">Close</v-btn>
+        <v-snackbar
+          color="success"
+          v-model="authSnackbar"
+          bottom
+          left
+          :timeout="5000"
+        >
+          <h3>{{ authSnackbarMessage }}</h3>
+          <v-btn dark text @click="authSnackbar = false">Close</v-btn>
         </v-snackbar>
       </v-container>
     </v-content>
@@ -158,27 +175,33 @@ export default {
     },
     toggleSideNav() {
       this.sideNav = !this.sideNav;
-    },
-    closeSnackbar() {
-      this.authSnackbar = false;
-      this.$store.commit('clearSnackbarMessage');
     }
   },
   watch: {
     user(newValue, oldValue) {
       if (!newValue) {
-        this.$router.push('/signin');
+        this.$router.push('/signin').catch(err => {});
       } else {
-        if (this.$route.path !== '/') this.$router.push('/');
+        this.$router.push('/').catch(err => {});
       }
 
-      if (oldValue === null && this.snackbarMessage != '') {
+      if (oldValue === null && this.authSnackbarMessage != '') {
         this.authSnackbar = true;
+      }
+    },
+    authSnackbarMessage(value) {
+      if (value) {
+        this.authSnackbar = true;
+      }
+    },
+    authSnackbar(value) {
+      if (!value) {
+        this.$store.commit('clearAuthSnackbarMessage');
       }
     }
   },
   computed: {
-    ...mapGetters(['user', 'snackbarMessage']),
+    ...mapGetters(['user', 'authSnackbarMessage']),
     sideNavItems() {
       return this.sideNavMenuItems.filter(
         i =>
