@@ -133,6 +133,7 @@ export default new Vuex.Store({
     signoutUser: async ({ commit }) => {
       commit("clearUser");
       localStorage.setItem("token", "");
+      localStorage.setItem("user", "");
 
       await apolloClient.resetStore();
     }
