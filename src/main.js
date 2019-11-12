@@ -10,12 +10,13 @@ import VueApollo from "vue-apollo";
 import FormAlert from "./components/shared/FormAlert";
 Vue.component("form-alert", FormAlert);
 
+console.log(process.env.VUE_APP_GRAPHQLURI);
+
 Vue.use(VueApollo);
 
 // Setup ApolloCliente
 export const defaultClient = new ApolloClient({
-  // uri: "http://localhost:4000/graphql",
-  uri: "https://node-fullstack-app-server.herokuapp.com/graphql",
+  uri: process.env.VUE_APP_GRAPHQLURI,
   // Include auth token to requests made to backend
   fetchOptions: {
     credentials: "include"
