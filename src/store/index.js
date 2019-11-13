@@ -7,7 +7,8 @@ import {
   GET_POSTS,
   SIGNUP_USER,
   SIGNIN_USER,
-  GET_CURRENT_USER
+  GET_CURRENT_USER,
+  CREATE_POST
 } from './queries';
 
 Vue.use(Vuex);
@@ -50,6 +51,22 @@ export default new Vuex.Store({
     }
   },
   actions: {
+    addPost: ({ commit }, payload) => {
+      commit('setLoading', true);
+      // Use apolloClient to fire signupUser query
+      apolloClient
+        .mutate({
+          mutation: CREATE_POST,
+          variables: { input: payload }
+        })
+        .then(({ data }) => {
+          commit('setLoading', false);
+        })
+        .catch(err => {
+          commit('setLoading', false);
+          console.error(err);
+        });
+    },
     getCurrentUser: ({ commit }) => {
       commit('setLoading', true);
       apolloClient
@@ -130,6 +147,7 @@ export default new Vuex.Store({
           router.push('/');
         })
         .catch(err => {
+          commit('setLoading', false);
           console.error(err);
         });
     },
