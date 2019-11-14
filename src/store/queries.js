@@ -1,4 +1,4 @@
-import { gql } from "apollo-boost";
+import { gql } from 'apollo-boost';
 
 export const GET_POSTS = gql`
   query {
@@ -79,6 +79,18 @@ export const GET_CURRENT_USER = gql`
         title
         imageUrl
       }
+    }
+  }
+`;
+
+export const CREATE_POST = gql`
+  mutation($input: PostInput!) {
+    addPost(input: $input) {
+      _id
+      title
+      description
+      imageUrl
+      categories
     }
   }
 `;
