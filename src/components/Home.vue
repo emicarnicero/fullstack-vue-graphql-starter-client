@@ -10,13 +10,34 @@
       </v-dialog>
     </v-layout>
 
-    <v-flex xs12>
-      <v-carousel v-if="!loading && posts.length > 0" v-bind="{ 'cycle': true }" interval="3000">
-        <v-carousel-item v-for="post in posts" :key="post._id" :src="post.imageUrl">
-          <h1 id="carousel__title">{{post.title}}</h1>
-        </v-carousel-item>
-      </v-carousel>
-    </v-flex>
+    <v-row dense>
+      <v-col v-for="post in posts" :key="post._id" sm="4" xs="12">
+        <v-card>
+          <v-img
+            :src="post.imageUrl"
+            class="white--text align-end"
+            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+            height="200px"
+          >
+            <v-card-title v-text="post.title"></v-card-title>
+          </v-img>
+
+          <v-card-text class="text--primary">{{post.description}}</v-card-text>
+
+          <v-card-actions>
+            <v-spacer></v-spacer>
+
+            <v-btn icon>
+              <v-icon>exit_to_app</v-icon>
+            </v-btn>
+
+            <v-btn icon>
+              <v-icon>bookmark</v-icon>
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
