@@ -46,12 +46,14 @@
                   :rules="[rules.required]"
                 ></v-text-field>
 
+                <v-img v-if="imageUrl != ''" :src="imageUrl" aspect-ratio="1.7"></v-img>
+
                 <v-select
                   id="categories"
                   label="Categories"
                   name="categories"
                   v-model="categories"
-                  :items="items"
+                  :items="['Art', 'Education', 'Photography', 'Technology', 'Travel']"
                   multiple
                   :rules="[rules.required]"
                 ></v-select>
@@ -65,7 +67,7 @@
                 type="submit"
                 form="addPost-form"
                 color="primary"
-              >Save</v-btn>
+              >Submit</v-btn>
             </v-card-actions>
           </v-card>
         </v-flex>
@@ -87,16 +89,14 @@ export default {
       imageUrl: '',
       categories: [],
       rules: {
-        required: value => !!value || 'Required.',
+        required: value => (!!value && value.length > 0) || 'Required.',
         counter: value =>
           (value.length >= 6 && value.length <= 36) || 'Min 6 Max 36 characters'
-      },
-      items: ['Art', 'Education', 'Photography', 'Technology', 'Travel']
+      }
     };
   },
   methods: {
     handleAddPost() {
-      console.log(title, description, imageUrl, categories);
       if (this.$refs['addPost-form'].validate()) {
         this.$store.dispatch('addPost', {
           title: this.title,
@@ -105,6 +105,7 @@ export default {
           categories: this.categories,
           creatorId: this.user._id
         });
+        this.$router.push('/');
       }
     }
   },
@@ -114,5 +115,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

@@ -86,14 +86,11 @@ export const GET_CURRENT_USER = gql`
 export const CREATE_POST = gql`
   mutation($input: PostInput!) {
     addPost(input: $input) {
+      _id
       title
       description
       imageUrl
       categories
-      createdDate
-      createdBy {
-        username
-      }
     }
   }
 `;

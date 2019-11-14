@@ -53,13 +53,30 @@ export default new Vuex.Store({
   actions: {
     addPost: ({ commit }, payload) => {
       commit('setLoading', true);
-      // Use apolloClient to fire signupUser query
+
       apolloClient
         .mutate({
           mutation: CREATE_POST,
-          variables: { input: payload }
+          variables: { input: payload },
+          update: (cache, { data: { addPost } }) => {
+            let data = cache.readQuery({ query: GET_POSTS });
+            data.getPosts.unshift(addPost);
+
+            cache.writeQuery({
+              query: GET_POSTS,
+              data
+            });
+          },
+          optimisticResponse: {
+            __typename: 'Mutation',
+            addPost: {
+              __typename: 'Post',
+              _id: -1,
+              ...payload
+            }
+          }
         })
-        .then(({ data }) => {
+        .then(function({ data }) {
           commit('setLoading', false);
         })
         .catch(err => {
