@@ -7,6 +7,16 @@ export const GET_POSTS = gql`
       title
       imageUrl
       description
+      likes
+      createdDate
+      createdBy {
+        username
+        avatar
+      }
+      messages {
+        _id
+        messageBody
+      }
     }
   }
 `;

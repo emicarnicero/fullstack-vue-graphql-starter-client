@@ -1,10 +1,14 @@
 <template>
-  <v-container text-center>
+  <v-container>
     <v-layout row>
       <v-dialog v-model="loading" persistent fullscreen>
         <v-container fill-height>
           <v-layout row justify-center align-center>
-            <v-progress-circular indeterminate :size="70" :width="7"></v-progress-circular>
+            <v-progress-circular
+              indeterminate
+              :size="70"
+              :width="7"
+            ></v-progress-circular>
           </v-layout>
         </v-container>
       </v-dialog>
@@ -19,12 +23,30 @@
             gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
             height="200px"
           >
-            <v-card-title v-text="post.title"></v-card-title>
-          </v-img>
+            <v-card-title>{{ post.title }}</v-card-title></v-img
+          >
 
-          <v-card-text class="text--primary">{{post.description}}</v-card-text>
+          <v-card-subtitle>
+            <v-layout>
+              <v-flex md3>{{ post.likes }} likes</v-flex>
+              <v-flex md3>{{ post.messages.length }} comments</v-flex>
+            </v-layout>
+          </v-card-subtitle>
+          <v-card-text>
+            <v-layout>
+              <v-flex md3>
+                <v-avatar>
+                  <img :src="post.createdBy.avatar" alt="John" />
+                </v-avatar>
+              </v-flex>
+              <v-flex>
+                <h1>{{ post.createdBy.username }}</h1>
+                <p>{{ post.createdDate | formatDate }}</p>
+              </v-flex>
+            </v-layout>
+          </v-card-text>
 
-          <v-card-actions>
+          <!-- <v-card-actions>
             <v-spacer></v-spacer>
 
             <v-btn icon>
@@ -34,7 +56,7 @@
             <v-btn icon>
               <v-icon>bookmark</v-icon>
             </v-btn>
-          </v-card-actions>
+          </v-card-actions> -->
         </v-card>
       </v-col>
     </v-row>
