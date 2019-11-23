@@ -6,6 +6,17 @@ export const GET_POSTS = gql`
       _id
       title
       imageUrl
+      description
+      likes
+      createdDate
+      createdBy {
+        username
+        avatar
+      }
+      messages {
+        _id
+        messageBody
+      }
     }
   }
 `;
@@ -91,6 +102,15 @@ export const CREATE_POST = gql`
       description
       imageUrl
       categories
+      likes
+      createdDate
+      messages {
+        messageBody
+      }
+      createdBy {
+        username
+        avatar
+      }
     }
   }
 `;

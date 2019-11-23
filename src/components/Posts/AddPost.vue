@@ -103,7 +103,9 @@ export default {
           description: this.description,
           imageUrl: this.imageUrl,
           categories: this.categories,
-          creatorId: this.user._id
+          creatorId: this.user._id,
+          createdBy: this.user,
+          createdDate: new Date(Date.now())
         });
         this.$router.push('/');
       }

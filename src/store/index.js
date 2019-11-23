@@ -57,9 +57,19 @@ export default new Vuex.Store({
       apolloClient
         .mutate({
           mutation: CREATE_POST,
-          variables: { input: payload },
+          variables: {
+            input: {
+              title: payload.title,
+              description: payload.description,
+              imageUrl: payload.imageUrl,
+              categories: payload.categories,
+              creatorId: payload.creatorId,
+              createdDate: payload.createdDate
+            }
+          },
           update: (cache, { data: { addPost } }) => {
             let data = cache.readQuery({ query: GET_POSTS });
+
             data.getPosts.unshift(addPost);
 
             cache.writeQuery({
@@ -72,7 +82,9 @@ export default new Vuex.Store({
             addPost: {
               __typename: 'Post',
               _id: -1,
-              ...payload
+              ...payload,
+              likes: 0,
+              messages: []
             }
           }
         })
