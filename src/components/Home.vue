@@ -37,7 +37,7 @@
               </v-flex>
               <v-flex>
                 <h1>{{ post.createdBy.username }}</h1>
-                <p>{{ post.createdDate }}</p>
+                <p>{{ post.createdDate | formatDate }}</p>
               </v-flex>
             </v-layout>
           </v-card-text>

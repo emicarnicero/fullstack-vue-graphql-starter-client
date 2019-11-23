@@ -102,6 +102,15 @@ export const CREATE_POST = gql`
       description
       imageUrl
       categories
+      likes
+      createdDate
+      messages {
+        messageBody
+      }
+      createdBy {
+        username
+        avatar
+      }
     }
   }
 `;
