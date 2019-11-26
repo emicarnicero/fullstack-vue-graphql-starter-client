@@ -32,7 +32,7 @@
             <v-layout>
               <v-flex md3>
                 <v-avatar>
-                  <img :src="post.createdBy.avatar" alt="John" />
+                  <img :src="post.createdBy.avatar" />
                 </v-avatar>
               </v-flex>
               <v-flex>
@@ -45,8 +45,19 @@
           <v-card-actions>
             <v-spacer></v-spacer>
 
-            <v-btn icon @click="selectedId == post._id ? selectedId = '' : selectedId = post._id">
-              <v-icon>{{ selectedId == post._id ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+            <v-btn
+              icon
+              @click="
+                selectedId == post._id
+                  ? (selectedId = '')
+                  : (selectedId = post._id)
+              "
+            >
+              <v-icon>
+                {{
+                selectedId == post._id ? 'mdi-chevron-up' : 'mdi-chevron-down'
+                }}
+              </v-icon>
             </v-btn>
 
             <!-- <v-btn icon>
@@ -61,7 +72,7 @@
           <v-expand-transition>
             <div v-show="selectedId == post._id" :ref="post._id" :id="post._id">
               <v-divider></v-divider>
-              <v-card-text>{{post.description}}</v-card-text>
+              <v-card-text>{{ post.description }}</v-card-text>
             </div>
           </v-expand-transition>
         </v-card>
@@ -78,10 +89,15 @@ export default {
   name: 'Home',
   data() {
     return {
-      selectedId: ''
+      selectedId: '',
+      skip: null,
+      limit: null
     };
   },
   created() {
+    this.$store.commit('clearPosts');
+    this.skip = 0;
+    this.limit = 6;
     this.handleGetCarouselPosts();
   },
   computed: {
@@ -90,8 +106,28 @@ export default {
   methods: {
     handleGetCarouselPosts() {
       // reach out the Vuex store, fire action that gets posts for carousel
-      this.$store.dispatch('getPosts');
+      this.$store.dispatch('getPostsInfinite', {
+        limit: this.limit,
+        skip: this.skip
+      });
+    },
+    scroll() {
+      window.onscroll = () => {
+        let bottomOfWindow =
+          (document.documentElement.scrollTop + window.innerHeight).toFixed(
+            0
+          ) == document.documentElement.offsetHeight;
+
+        if (bottomOfWindow) {
+          this.skip = this.posts.length;
+          this.limit = 6 - (this.skip % 6);
+          this.handleGetCarouselPosts();
+        }
+      };
     }
+  },
+  mounted() {
+    this.scroll();
   }
 };
 </script>

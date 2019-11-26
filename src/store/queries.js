@@ -1,8 +1,8 @@
 import { gql } from 'apollo-boost';
 
-export const GET_POSTS = gql`
-  query {
-    getPosts {
+export const GET_POSTS_INFINITE = gql`
+  query($limit: Int!, $skip: Int!) {
+    getPostsInfinite(limit: $limit, skip: $skip) {
       _id
       title
       imageUrl
@@ -95,18 +95,28 @@ export const GET_CURRENT_USER = gql`
 `;
 
 export const CREATE_POST = gql`
-  mutation($input: PostInput!) {
-    addPost(input: $input) {
+  mutation(
+    $title: String!
+    $description: String!
+    $imageUrl: String!
+    $categories: [String!]!
+    $creatorId: String!
+    $createdDate: String!
+  ) {
+    addPost(
+      title: $title
+      description: $description
+      imageUrl: $imageUrl
+      categories: $categories
+      creatorId: $creatorId
+      createdDate: $createdDate
+    ) {
       _id
       title
       description
       imageUrl
       categories
-      likes
       createdDate
-      messages {
-        messageBody
-      }
       createdBy {
         username
         avatar
