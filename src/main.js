@@ -54,7 +54,7 @@ const apolloProvider = new VueApollo({ defaultClient });
 Vue.config.productionTip = false;
 
 Vue.filter('formatDate', function(value) {
-  return moment(String(value)).format('MM/DD/YYYY hh:mm');
+  return moment(new Date(value)).format('DD/MM/YYYY hh:mm a');
 });
 
 new Vue({
