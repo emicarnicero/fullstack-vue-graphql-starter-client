@@ -4,6 +4,7 @@ import router from '../router/index.js';
 
 import { defaultClient as apolloClient } from '../main';
 import {
+  GET_POSTS,
   GET_POSTS_INFINITE,
   SIGNUP_USER,
   SIGNIN_USER,
@@ -27,6 +28,9 @@ export default new Vuex.Store({
     },
     setPost: (state, payload) => {
       state.posts.unshift(payload);
+    },
+    setPosts: (state, payload) => {
+      state.posts = payload;
     },
     clearPosts: state => {
       state.posts = null;
@@ -54,6 +58,57 @@ export default new Vuex.Store({
     }
   },
   actions: {
+    addPost: ({ commit }, payload) => {
+      commit('setLoading', true);
+
+      apolloClient
+        .mutate({
+          mutation: CREATE_POST,
+          variables: payload,
+          update: (cache, { data: { addPost } }) => {
+            let data = cache.readQuery({ query: GET_POSTS });
+            data.getPosts.unshift(addPost);
+
+            cache.writeQuery({
+              query: GET_POSTS,
+              data
+            });
+          },
+          optimisticResponse: {
+            __typename: 'Mutation',
+            addPost: {
+              __typename: 'Post',
+              _id: -1,
+              ...payload,
+              likes: 0,
+              messages: []
+            }
+          }
+        })
+        .then(function({ data }) {
+          commit('setLoading', false);
+        })
+        .catch(err => {
+          commit('setLoading', false);
+          console.error(err);
+        });
+    },
+    getPosts: ({ commit }) => {
+      commit('setLoading', true);
+      // Use apolloClient to fire getPosts query
+      apolloClient
+        .query({
+          query: GET_POSTS
+        })
+        .then(({ data }) => {
+          commit('setPosts', data.getPosts);
+          commit('setLoading', false);
+        })
+        .catch(err => {
+          commit('setLoading', false);
+          console.error(err);
+        });
+    },
     getPostsInfinite: ({ commit }, payload) => {
       commit('setLoading', true);
       // Use apolloClient to fire getPostsInfinite query
@@ -71,23 +126,23 @@ export default new Vuex.Store({
           console.error(err);
         });
     },
-    addPost: ({ commit }, payload) => {
-      commit('setLoading', true);
+    // addPost: ({ commit }, payload) => {
+    //   commit('setLoading', true);
 
-      apolloClient
-        .mutate({
-          mutation: CREATE_POST,
-          variables: payload
-        })
-        .then(function({ data }) {
-          commit('setPost', { ...data.addPost, likes: 0, messages: [] });
-          commit('setLoading', false);
-        })
-        .catch(err => {
-          commit('setLoading', false);
-          console.error(err);
-        });
-    },
+    //   apolloClient
+    //     .mutate({
+    //       mutation: CREATE_POST,
+    //       variables: payload
+    //     })
+    //     .then(function({ data }) {
+    //       commit('setPost', { ...data.addPost, likes: 0, messages: [] });
+    //       commit('setLoading', false);
+    //     })
+    //     .catch(err => {
+    //       commit('setLoading', false);
+    //       console.error(err);
+    //     });
+    // },
     getCurrentUser: ({ commit }) => {
       commit('setLoading', true);
       apolloClient
