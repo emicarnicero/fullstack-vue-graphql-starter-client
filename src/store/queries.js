@@ -1,5 +1,14 @@
 import { gql } from 'apollo-boost';
 
+export const GET_POSTS = gql`
+  query {
+    getPosts {
+      _id
+      title
+      imageUrl
+    }
+  }
+`;
 export const GET_POSTS_INFINITE = gql`
   query($limit: Int!, $skip: Int!) {
     getPostsInfinite(limit: $limit, skip: $skip) {
