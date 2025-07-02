@@ -1,0 +1,2475 @@
+{
+    "billingPeriodBillingData": [
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c1824e02-ad6b-40b5-b1c5-0a387d80af57",
+            "userCost": 13.584377440,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f4a6500d-0012-485f-ba7c-10c1880da55f",
+            "userCost": 6.202675740,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "be756dbe-151c-434b-9abb-b32fa126b508",
+            "userCost": 9.179450580,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "082086da-5fa0-4de8-8876-043925069153",
+            "userId": "b7555d51-b88d-45c9-b753-7874f6bc9f92",
+            "userCost": 13.092470220,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8fea2e75-24a8-4025-94b1-448e72d6b579",
+            "userCost": 16.687519950,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f80448ba-ee04-4626-82c4-5e8acdb527e8",
+            "userCost": 9.313001460,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b9acda67-372f-4f80-955f-75c6bfd63b7a",
+            "userCost": 15.326486380,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "75615a77-4f6d-4d58-8f4e-fa47e84fe414",
+            "userCost": 7.127536600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "204bb25b-7527-4a90-973a-2cd2f4e42c10",
+            "userCost": 7.628478960,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3d188202-ce6a-42da-a508-9f71998afb30",
+            "userCost": 12.967321780,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "edf9875e-1b61-4a1b-b41e-cdb29172a524",
+            "userCost": 1.902643090,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3f33cad5-6c0a-4734-8ded-c3d96ffb9910",
+            "userCost": 4.171712940,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ef94f1c8-acc5-4df9-98f6-a694a8116256",
+            "userCost": 10.312117120,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "644188b8-3b3f-4d14-89ed-d4d6315a7468",
+            "userCost": 9.027458610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "26de38b2-804d-4efc-96d3-10768eb05feb",
+            "userCost": 13.465783160,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3ce9455a-0e62-4a51-ad42-8f59729490f2",
+            "userCost": 8.529018400,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "60181f4f-61bd-409b-a08f-d46befa5e9e3",
+            "userCost": 6.173754710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "738ec1ba-9915-41b2-8e03-9340d8ce4932",
+            "userCost": 15.112156680,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3172b1fd-567a-44c9-aea8-c6bc44283974",
+            "userCost": 15.327605410,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "86bcfd9e-19a1-4c73-88e7-6a7ff5a9dfc3",
+            "userCost": 16.227520570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e6d08416-1fe6-4f53-b225-72c0d18f81fd",
+            "userCost": 13.913599370,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5fac5c49-71e3-4d43-be54-35aea77ad2ef",
+            "userCost": 4.369534710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f807c21c-84a8-4215-ba09-210c11a91215",
+            "userCost": 11.156948570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "feab80c3-5c83-4dad-a8ff-51ed1551a6e4",
+            "userCost": 16.530862610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "369b2326-acf0-40f8-9daa-a1bf3007a806",
+            "userCost": 7.458230150,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e0946166-3869-410a-978f-ce25e608a49a",
+            "userCost": 10.428141860,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "dbe102ec-5d7a-4815-8946-3db6ad3ee0d9",
+            "userCost": 4.949067810,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0284c268-8de9-4c0b-8b2a-57d130180a34",
+            "userCost": 11.186412570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1533ae63-0c47-4abe-b951-ced149f5368f",
+            "userCost": 19.588087160,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3ee4c5fd-f8fb-41bb-9533-71318763d22f",
+            "userCost": 12.201820490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "074afaca-858c-486a-a1b6-39eaaf5007c3",
+            "userCost": 3.546419480,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8d5b4d81-cc9f-4fe3-b6d5-d2eb030af6aa",
+            "userCost": 3.295531620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b5b7520c-62f2-49db-8d57-da6b1aa6d35a",
+            "userCost": 13.035146310,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e772c4f5-54f0-4770-bad2-b5b11782a6a7",
+            "userCost": 4.587630820,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "251862b3-f0f0-4afa-96b9-2921f0740ead",
+            "userCost": 13.307410260,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7838482b-973f-459c-98e7-4b79fa66e38a",
+            "userCost": 18.494386240,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a720bf30-cf88-4bb8-b792-c22e03a73fd2",
+            "userCost": 11.311340290,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "589d9b62-98a2-4546-ad1d-2262bf81933f",
+            "userCost": 13.300584310,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fb076fdc-54f3-4471-a6e6-5120c9495871",
+            "userCost": 10.307300970,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9d3b992e-9a24-4bb7-9927-3be2c9ff57ef",
+            "userCost": 16.104985020,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b67881b7-413b-41e2-8721-820b133c4642",
+            "userCost": 7.918037560,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6b1e0048-5eaf-477f-9f32-cbba3335f914",
+            "userCost": 10.338595680,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d0b972cd-e96c-4d25-b970-6199c3f3b5ec",
+            "userCost": 6.414051320,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cb21bdce-f856-408f-814b-00f1baeacc01",
+            "userCost": 8.258941650,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "4cbb2684-4ea3-4595-abc1-521cfac6cd25",
+            "userCost": 9.858709270,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5f0bc8f0-d890-42ab-9ff5-d1362e238c98",
+            "userCost": 5.355868320,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c3c71ed3-0cc2-43f2-b505-11d8139026ba",
+            "userCost": 13.077621700,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2b9366b3-bfa7-4613-81bd-84ae6b72df46",
+            "userCost": 3.732783120,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e840e31a-4e0b-4333-be64-21ed6585c7db",
+            "userCost": 13.332475770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "91566a15-6845-49d2-afab-e96db62776bc",
+            "userCost": 7.009006230,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c24f33bc-ea40-4cec-a93f-573a0e243571",
+            "userCost": 10.263021890,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "699808b6-902d-40bd-9014-128081e98d51",
+            "userCost": 16.933410350,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d71e7e89-faf0-4fc4-8639-543df8a0b47a",
+            "userCost": 10.377006660,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2d064592-900e-4cec-b6f4-62afbd6b153b",
+            "userCost": 13.950449620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d1fd9272-0cca-4d37-8323-7f4d1cba1fa3",
+            "userCost": 10.297149770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a221b71a-42ee-41fb-b803-61ff70595bbc",
+            "userCost": 3.279138250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "29607377-f62a-4359-956f-ef2fd2677ac9",
+            "userCost": 15.192100390,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8ae8d355-72c4-46ff-bea7-cec71edccb45",
+            "userCost": 13.125433580,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3f1e0a39-ed8d-4f1b-a243-8a9f4fe8743a",
+            "userCost": 9.157117130,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e72842f6-8f30-4626-a84d-f6750f5c2ccf",
+            "userCost": 10.338265750,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cfc20ae1-e239-4f8e-ba20-0472d9d4c245",
+            "userCost": 13.130029640,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1710428c-b0d3-4f4c-b37b-cb36bd32c924",
+            "userCost": 2.918835990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "87c81e75-303a-4548-8944-a86a92c19411",
+            "userCost": 9.434989440,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e042106c-c4ea-41e8-85c0-ade3680bc8b1",
+            "userCost": 11.755998930,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6e090c79-b1bd-4533-a193-13a98191f7a5",
+            "userCost": 6.513795930,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "576c7627-7cea-4a98-a2a5-85c91a0beb98",
+            "userCost": 10.561338810,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5706d47f-2085-4873-bf1d-bba51ee43624",
+            "userCost": 4.780510110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b9903316-ed5b-48ed-88f0-873415a5f203",
+            "userCost": 8.656529220,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7a9f645c-3c24-4954-a3fa-625ced3d7e7d",
+            "userCost": 2.727636520,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "28af232a-e85e-4f56-9dc3-300b60964a29",
+            "userCost": 13.237732850,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7e7e848a-4551-49e3-86cd-abef396d9968",
+            "userCost": 10.458489710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f4533338-bbdb-4ce3-adc8-03440d6885ae",
+            "userCost": 3.241926080,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "eacff887-6060-4f28-a8f9-f8bdb8fe471f",
+            "userCost": 13.258511310,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6588b392-a5c5-4ceb-a2ff-49a20b24f329",
+            "userCost": 10.315867900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "055f44fc-8b58-477f-acee-f818c94350e4",
+            "userCost": 16.840688450,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "855c7321-7e89-4cfa-965f-22d2557178b5",
+            "userCost": 7.932219250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9aa9b91c-4093-4f20-8e0d-319a27997625",
+            "userCost": 5.563228600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c38b7bbd-aac6-4a68-972b-0dcf6b6d8020",
+            "userCost": 8.936169690,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ef55eeac-990a-4a0a-97c1-2c4d0b0ad5a9",
+            "userCost": 3.898424470,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1b392548-9e19-46e3-8579-8dd37d577422",
+            "userCost": 4.977636290,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "bca2a366-5096-4e7e-aff2-e364f39a6fed",
+            "userCost": 6.920290970,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "47d27683-88d4-41a7-820e-787e2b7744fe",
+            "userCost": 5.614984360,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "da0bef3f-96ef-431b-ae63-0161b28527f3",
+            "userCost": 5.566002420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "223a166b-0bae-4679-be3c-4f3dfe1bbbf8",
+            "userCost": 7.638829490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "192e4aec-19e0-4bc0-80ba-6607353bf5c6",
+            "userCost": 6.078747720,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "04d32a24-742d-45b3-9355-60749aab949f",
+            "userCost": 10.958507870,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "982c7485-fe64-44cc-9a57-6ebe03e41015",
+            "userCost": 12.842144610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a513cc04-1112-49fd-b342-ff2c48c79807",
+            "userCost": 7.238308160,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d86c3ffe-b30b-45ee-b330-7344f37b863e",
+            "userCost": 10.213845460,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "418dc1df-4d74-440c-b568-f92e95162e03",
+            "userCost": 6.502476030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "88c1f8b3-10cc-4907-961a-c4bdbef5bfcd",
+            "userCost": 8.247465220,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "79b5c611-a242-456d-9bd4-206746e7c19b",
+            "userCost": 13.078202420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f32a74a3-ddae-4cdb-abac-8747338a2318",
+            "userCost": 5.081778960,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "95885d44-c2c8-49ea-8753-962c52b97d26",
+            "userCost": 1.154926010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "69208c22-c3fc-4197-b6f9-93b7e86223d8",
+            "userCost": 7.497950840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "27012e64-4291-4246-b4ab-25faf73d1ead",
+            "userCost": 14.434152770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e84072aa-c8df-43b8-9ee3-854788b565c2",
+            "userCost": 16.101613960,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "21c6dd57-020d-4739-96d9-ed7d21d04e96",
+            "userCost": 8.841605050,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e3f1dd13-4726-4f81-a0f3-adeff5dae7af",
+            "userCost": 13.206002000,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "de3148b9-3f5d-4f74-966b-8b39e4dfd115",
+            "userCost": 8.078212560,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fcd977af-92bb-4ba0-a4a0-2012a38b0819",
+            "userCost": 15.032081960,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0f6f98d9-1c41-4b8c-b299-69583abc3ddc",
+            "userCost": 18.962400030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1ea92850-5220-4cda-bec2-7d11bc64828a",
+            "userCost": 6.777510810,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b8c71dbd-569f-4768-be87-f994e3fd93f0",
+            "userCost": 2.886477790,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0537a42a-59df-4de5-b721-0cf7f9881bf4",
+            "userCost": 7.812820360,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "4f7140d2-8128-468a-93dc-4428a77d2496",
+            "userCost": 10.353898760,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "31267008-9eec-436f-811f-d0efd2ef490d",
+            "userCost": 18.716923940,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d48f280f-e5aa-4f58-aa9e-2865fa5c762a",
+            "userCost": 17.110759030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e92f5b4c-53e7-40a9-b20a-35561e5f123a",
+            "userCost": 12.556134840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3786e708-5c2a-486d-90e3-3b5853e6bb2e",
+            "userCost": 18.800743510,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7cd10940-8550-4bee-86ef-ba530eec2c14",
+            "userCost": 0.241572610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3ab86870-a535-492d-ba11-80293f43092e",
+            "userCost": 14.513235480,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "809e19f6-3f61-4055-bf86-d87d28be4bca",
+            "userCost": 16.952200370,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1bcc564a-7ba4-4a37-8cc2-09387b5e6911",
+            "userCost": 7.815316780,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d3445463-b7b4-49ef-9dad-fda5f7844439",
+            "userCost": 13.925859410,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f5af6838-ea2f-4de3-aa2c-cf183edd1fb4",
+            "userCost": 9.987383000,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5b0e4daf-81a2-494b-a421-7e76d18b2568",
+            "userCost": 15.518950210,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "96ffb841-9f78-40bf-841b-bcd14893af39",
+            "userCost": 9.681947210,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f23c0e2d-fd9a-414b-a047-f2d17a46b57c",
+            "userCost": 6.928708070,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "997e449e-16c2-4891-a13c-524347826ff0",
+            "userCost": 8.492971030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2db47f14-084e-40da-8002-30bd92fcb3b2",
+            "userCost": 15.006989110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2c56e660-9321-4235-8e65-05042c38ae3c",
+            "userCost": 7.924002200,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2866ffae-18a4-4aaf-87ed-5c1c73f7ae7b",
+            "userCost": 5.619354170,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ac1349e6-ea64-4df4-8273-b10fce655edf",
+            "userCost": 13.098497140,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6d6543f0-c770-49ae-96ff-f1a6c7bae0b1",
+            "userCost": 13.107634840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2f530b5a-da40-444c-ade1-31bf021cfec0",
+            "userCost": 12.133212440,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ada53f2f-4ec7-4b8f-9206-c806f9786a46",
+            "userCost": 7.430450430,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a21628fe-2d8d-48ea-9c89-9532ed4f01e2",
+            "userCost": 12.226511450,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0de8460c-598e-4565-8084-bc9baacb06fc",
+            "userCost": 16.098168410,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7cee2f39-a74d-4b85-8b0d-07368c289a3f",
+            "userCost": 4.882845350,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "aa0cb548-3a41-40ed-9cb4-8e2d08e9f28c",
+            "userCost": 8.498778570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ae4cf8cd-a07a-4911-9a26-df84dbe9ce78",
+            "userCost": 8.698162830,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "56571933-0dcf-4540-b261-03a08d867bbe",
+            "userCost": 13.555688300,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f9d0cbeb-8dde-480f-a78d-92d85873309c",
+            "userCost": 12.362449140,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "029ba5f8-5b3a-4a43-b2f5-378cd514726b",
+            "userCost": 12.557778980,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ddf8192e-e649-465d-8059-f72561ec8753",
+            "userCost": 13.862305400,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "675a8b7f-9f08-47a0-bac9-18f4ea2a0527",
+            "userCost": 8.270895270,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3c2cf6cd-91c7-458f-ba52-446b8317cc68",
+            "userCost": 17.615298610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6c4b019c-26b7-41f2-9eca-c98eef56026f",
+            "userCost": 8.652353260,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9fee1e8a-287e-411c-b66e-ae628aba7f97",
+            "userCost": 6.362649460,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "17666aec-8471-431b-b613-8b18c7d80ea4",
+            "userCost": 5.116608420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c424ddc1-9363-4691-b3dd-414e89487f4d",
+            "userCost": 6.764124830,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d635c81e-2359-4e8f-9d06-2a8df600a8f4",
+            "userCost": 15.074121910,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8ff1c0e1-1894-4dab-96f8-82575fa8e942",
+            "userCost": 12.416714780,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "702bf3aa-3e59-4c4b-8c69-4af953d1c85a",
+            "userCost": 7.990153710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7957b360-69f9-4fa9-80d7-977656aa8780",
+            "userCost": 6.380844100,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7f2ad747-aece-4e7a-9493-62ec52290671",
+            "userCost": 6.457581130,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0bdcf7d8-fecb-4618-a167-c7eb572819a8",
+            "userCost": 7.466406420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1b57d857-1c72-4e76-b969-23a26290f55f",
+            "userCost": 7.926741330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "dfe6e2aa-04af-4c95-b3dd-201cbf99c46a",
+            "userCost": 10.507234690,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "86c57691-533a-45cc-8230-6cd4800267d3",
+            "userCost": 12.152691640,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b77ccc84-67da-447b-89d3-e5c709f22b4d",
+            "userCost": 11.127852840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1b9b5229-28d5-4b21-80ef-55ffaa9ad9f8",
+            "userCost": 13.745839510,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fbbab9e9-b22d-42ca-93e6-859ad672faf9",
+            "userCost": 16.270831120,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a9f1a1cd-91e9-4bf1-bb31-683f3e7e9571",
+            "userCost": 10.977911190,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fa2e3a1c-9090-4e9a-aa9a-16aa5cd7ff29",
+            "userCost": 8.554608990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "59aaff5e-ab88-4dc5-82f1-2a89a393408e",
+            "userCost": 5.521716580,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "da8bcbf9-ba96-4967-affa-6c9834077264",
+            "userCost": 10.151275930,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "06a1ab6a-94d1-48af-9f85-509a8f0ad99f",
+            "userCost": 12.591535010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b3fd675e-69e0-4289-8708-6343cadb0391",
+            "userCost": 13.003983200,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "dbd746f6-1280-441a-b7c3-265d99f9f253",
+            "userCost": 11.205481530,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7d732845-b3bf-48a6-becc-0b2cb9828f98",
+            "userCost": 7.653850700,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f4b71e90-7a60-4e11-bceb-365898fb9598",
+            "userCost": 7.739255730,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e8ab42a8-a847-40a7-bf1b-06c68e4770c6",
+            "userCost": 16.538931250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "28346514-699b-4eb5-9a7f-45127b466db8",
+            "userCost": 9.069934400,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b45a610d-219c-46a1-8cb4-764748507a76",
+            "userCost": 11.427913490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7a7e45dc-ae44-4fac-8978-f0098d9ee136",
+            "userCost": 8.690886640,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "23c736e3-550b-4545-aa4d-14bcdd4fd9d7",
+            "userCost": 15.553783900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d41f9279-e99a-4f1e-bba6-077e33cedcc3",
+            "userCost": 9.689516840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1627b730-288a-4c9f-a952-21dc9e9a55ed",
+            "userCost": 19.099825800,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "85c8921b-39d1-45ed-a399-f9c91af23840",
+            "userCost": 7.694585100,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2979318a-9c06-470e-adad-afbaf9a5653f",
+            "userCost": 5.946338730,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1bdcacaa-382c-4467-9607-1d7bb8bf0e63",
+            "userCost": 5.164236790,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "86645142-3cb5-4f2d-a32c-129547aa2955",
+            "userCost": 15.690635110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e3130a4c-9bf0-4651-80ee-89f9c55b9a9e",
+            "userCost": 10.676275210,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a1f31d88-c060-4daa-81c8-9ccf89c26e43",
+            "userCost": 15.560020270,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0ff7ec2a-274f-4fd6-a0d4-e022f6b489ff",
+            "userCost": 14.077481300,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "807a7e32-005f-45d6-878a-3efdcf55528d",
+            "userCost": 7.052292630,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a22144f4-d742-4ae5-90b4-42f0f4560ef0",
+            "userCost": 18.102243930,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "996d15f9-666b-42a1-bedc-54e22029057e",
+            "userCost": 9.494900490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "841cf32b-bd0c-4812-bf2f-59307f831e4b",
+            "userCost": 5.176470980,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f381f61d-6b5d-448d-b6d5-32bd940beebd",
+            "userCost": 9.318785260,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e88b68c2-b389-4276-b68b-f493a04c6440",
+            "userCost": 4.043246260,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5010fc30-3f2c-496b-b540-d2052f258726",
+            "userCost": 9.216146050,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7aa13ed3-ddfa-410c-8a03-57dd0b113e66",
+            "userCost": 9.644567290,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "98c5a8c3-5316-4d16-ada0-51a6bea04be4",
+            "userCost": 15.171934600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1cfd27ac-27c5-481e-a3a6-09dec7aa8c7a",
+            "userCost": 7.471503200,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0c1b87b7-2c0f-4d0c-8f16-d5528a223070",
+            "userCost": 14.147046520,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "49f257b6-0a01-439d-8f71-2dfcc2a42be0",
+            "userCost": 11.897679790,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "04c5a184-9f86-4823-b5fc-6589d4c7ecf6",
+            "userCost": 6.843922110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a72ab724-c2cd-44b8-b99b-4e027a0fa0bd",
+            "userCost": 9.555982690,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cc5c4651-2e7c-4fd3-acdd-985182e13bf3",
+            "userCost": 11.461781000,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "4a9651c0-9fc3-4ec2-a24c-4550e8479bcd",
+            "userCost": 3.792414580,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ff2547de-c529-42ef-8f68-10249c5e8e7b",
+            "userCost": 11.097650020,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3f850c28-c248-4110-8a18-a97e9d2beed1",
+            "userCost": 13.930686020,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9f11b729-12c1-41b4-99f5-ef91db87d403",
+            "userCost": 8.193483470,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5201d03c-8913-4ee8-9c67-317cd027aa38",
+            "userCost": 4.061086990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "59237870-904e-42a4-8eda-31b23a0c36cc",
+            "userCost": 8.697632430,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "31625f5e-b157-4b65-8b6f-4f2f8a28f928",
+            "userCost": 14.221352410,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5d898679-b99b-4507-9763-15bc0a2ee00e",
+            "userCost": 8.817545980,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e0993c99-993a-44c4-80af-afe0e2c30e52",
+            "userCost": 9.325666050,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f191b600-a015-48c6-b8d2-b3f5487d16bb",
+            "userCost": 9.914172190,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cb9e54aa-7950-44cc-b1d0-b5ac7ce7cd2d",
+            "userCost": 11.439453250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "aba70abe-dea2-4c33-87d5-bb74f2609b09",
+            "userCost": 13.109762710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c96d040e-cb8e-4817-aaec-dea196b0fd01",
+            "userCost": 12.022177470,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7b25a463-9f6a-46a0-9e30-37ea0f98351f",
+            "userCost": 18.590392640,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "430dc63c-4a63-45c4-86a9-5479bb67da5c",
+            "userCost": 10.207608620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "28152eef-3ff3-47e3-9051-167cab41550c",
+            "userCost": 7.682263620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "885e1798-99d2-4b19-8adb-89c3c38c8f83",
+            "userCost": 16.687042010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b4cf6791-828b-452f-9223-a71d815f1536",
+            "userCost": 4.944923630,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d944e6e0-9273-4fc2-bd18-b1d3ad5979f0",
+            "userCost": 9.233713150,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "38726f9a-5166-4659-9b77-c6133955457b",
+            "userCost": 2.256956450,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d6ea9beb-32b7-4789-95c3-714b13cbfee9",
+            "userCost": 12.176895450,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "56dfdbda-fd88-4699-a6c6-2e2005e38bf4",
+            "userCost": 10.328228340,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6ec5c3d6-0d07-4bfb-b253-966ef2405b24",
+            "userCost": 12.646896880,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "90386755-9c89-45b0-a22b-807dc41895d5",
+            "userCost": 11.071742020,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "88ba334a-af8a-486c-b006-801653f38908",
+            "userCost": 12.114570540,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2b510b66-8819-4c23-8859-657d841c1f59",
+            "userCost": 10.736611940,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "5e5bfa57-5fc1-49c0-ac0a-4c408374b47f",
+            "userCost": 15.798025180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0d966af1-7da3-4c3a-98e2-c94da095c956",
+            "userCost": 19.710048110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0a6b25ca-2608-4394-a7aa-14f5393cc1ab",
+            "userCost": 11.842727570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f7185fc2-b685-489d-880d-bbe94d660285",
+            "userCost": 11.077224570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3d2bed43-2704-4250-94b0-205552b006db",
+            "userCost": 7.247450490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "508ab356-7278-4b11-8d6a-e4b90613d618",
+            "userCost": 16.746839520,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8456bc6a-6219-4445-980b-03499d435acd",
+            "userCost": 11.571333840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "77258330-d9e4-4c4d-a85a-b29e55ba3a5d",
+            "userCost": 17.925269830,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "66ea011b-7ee9-4c30-9683-7f8c62bb91d5",
+            "userCost": 11.605585750,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f64b53b9-5635-4c13-a083-37827aa24bf7",
+            "userCost": 3.675177250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ab247e6f-7be0-494e-8898-40c72a95e20d",
+            "userCost": 6.176314830,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "26a845cd-c0c6-4871-bd30-36506dd5945b",
+            "userCost": 16.608393800,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7dd7a4ec-a256-403e-a0de-4b54982a8b30",
+            "userCost": 9.021317980,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c35de5c0-a177-4758-a469-d5ce53651653",
+            "userCost": 7.028051860,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "223ea488-f283-44bf-b2fa-488f54e639dd",
+            "userCost": 7.766347460,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e358822b-4cae-4e3f-ad95-bde738e0db01",
+            "userCost": 9.220623350,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ea23c7e5-18ab-49fa-86dc-8e536f46ddb6",
+            "userCost": 18.420264690,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "92551e6e-3310-44ab-89f0-46b86633c3d6",
+            "userCost": 6.716461130,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cb86848e-ec7a-49b2-a40a-0fe6b0de809d",
+            "userCost": 7.076029680,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0956a6ec-b661-447e-91ed-3212c58251f5",
+            "userCost": 9.133539170,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3a3ea0d1-caf1-4398-a8db-92016fd46104",
+            "userCost": 12.546823860,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9b57ce28-91b0-4352-8211-a36eae81e19a",
+            "userCost": 1.399993520,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f678ca65-3641-4e26-bfc9-388e0c959eb9",
+            "userCost": 4.041213180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "00d14f2b-eb34-4217-aad7-01ebf1977c98",
+            "userCost": 13.546397180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1324c039-0a8c-491a-95fc-635be57663d9",
+            "userCost": 13.190435410,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1a89c701-a079-426b-b5f7-cf30256c2d39",
+            "userCost": 0.279080560,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "50443c0b-000a-4f9d-8337-8fc165507da5",
+            "userCost": 11.205885350,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c7461578-bee3-4bb8-95d5-53ea15c2958f",
+            "userCost": 6.709914610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "81925c02-5e9e-441f-afb5-066bbd3e1ff9",
+            "userCost": 13.368752180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fb007b20-d948-4c31-a49d-55e19e12fad4",
+            "userCost": 14.830473310,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6e513ee8-5c2e-4ede-9add-6a177ef2f3e7",
+            "userCost": 9.514485080,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "42d5f869-9ff6-4a1e-890f-08c981453d9f",
+            "userCost": 9.156798150,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "76e71502-146e-4171-af01-166d50ac4e8a",
+            "userCost": 8.737266740,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1c34f386-b5b6-4c86-b65b-b6d80056c1d0",
+            "userCost": 8.980978530,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3289e835-83df-426b-8eb7-fc74261fd6c8",
+            "userCost": 6.985007230,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cca007b1-67f9-4ef4-b049-591aefbcf47d",
+            "userCost": 10.221421000,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "396ad9d8-98af-4f24-b863-3779933a46c3",
+            "userCost": 3.240797900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "eec4b01f-b729-4aae-91e6-dc1fd36fca06",
+            "userCost": 9.139881600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c9bf1205-4ede-48d0-8997-03b1d542cc5e",
+            "userCost": 10.361761000,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7cbf74d4-be6f-4ebc-ba8a-3953c45dc282",
+            "userCost": 13.612994840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "10a07042-cef5-4c0f-a88a-c865287734d7",
+            "userCost": 17.616372770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a041357c-ca76-498b-831c-b1d131036347",
+            "userCost": 11.262085150,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0eb0c893-961e-415f-8c9e-678ecc44c265",
+            "userCost": 6.842578870,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "15b2f676-0170-4432-b7a4-e2a0f58df6d6",
+            "userCost": 1.797568720,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ad59c89a-6672-4734-be22-339d929e97ab",
+            "userCost": 7.030525280,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "64be94f8-7cea-43f8-8222-19e214e6c4b5",
+            "userCost": 10.844475420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "532808e7-3e66-4c53-8589-2ec090defcdd",
+            "userCost": 6.224655490,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "847758a4-4001-4dc7-806f-bf703d66177e",
+            "userCost": 8.370069090,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b02ab9e8-4599-4fc6-ab97-984585e29045",
+            "userCost": 14.785868810,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f6be9893-b39a-4bf1-b03b-b07eb0a78340",
+            "userCost": 14.294175380,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b3bda0b5-c747-4bb3-9f44-362dfc4e521f",
+            "userCost": 13.491833550,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "039d4abc-19b0-4211-9dc8-66a16caac980",
+            "userCost": 13.623506390,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7f83f91e-fe66-4806-9c1c-989724049634",
+            "userCost": 13.732645770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "bf73aa0e-bc6b-4eac-9f8a-22024fa245ad",
+            "userCost": 16.598545050,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "87fec071-4123-445d-8600-5d0bd05a366b",
+            "userCost": 13.234502250,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "480cac40-f29b-4a77-b9f6-ccbfb6960ffe",
+            "userCost": 11.514385750,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7c59afd0-4b3d-4a94-a1bb-dfc54e910057",
+            "userCost": 3.222228610,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "16ceecd4-ab26-4a00-a248-04038fb8d36b",
+            "userCost": 9.294454900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e36fc18a-0fec-4601-9182-f6905b747b2e",
+            "userCost": 5.483423720,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "428fc914-d132-417a-92c9-f327706b9bea",
+            "userCost": 7.028626120,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d5ed264b-7401-43b8-93ea-318f0d202f49",
+            "userCost": 5.303471590,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a764af2c-c3a0-46e7-8826-98bc7a0d2978",
+            "userCost": 10.116932330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "bd9eef68-2898-4dfc-a3be-6d7ae21d52e3",
+            "userCost": 9.825889730,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0eab2a58-c2f4-4d49-980f-c323d55843c3",
+            "userCost": 13.527233030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "674d2396-d069-42e8-9209-4e7fd84bbcda",
+            "userCost": 8.576380570,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "1617871b-bf76-43e5-9974-06ff5431b522",
+            "userCost": 11.928939990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b1a6bed7-4081-4300-89b1-fd08813a2175",
+            "userCost": 8.018428690,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "02688f08-78a5-4cfe-ba45-fea67b163aa4",
+            "userCost": 7.879050510,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a2979438-6baf-4d61-861f-0b5b0a77e4ab",
+            "userCost": 12.838027260,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "816b91ec-0d3a-4ac4-b861-2884e9ccf33a",
+            "userCost": 3.087302950,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d0acffc8-feab-43e9-83a7-aaabb04d4863",
+            "userCost": 6.974924710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6e80932d-12eb-4f59-98df-279e7d8de7b7",
+            "userCost": 7.223754730,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "fdc474ce-f46f-4b59-9b81-eef477faca43",
+            "userCost": 4.270998330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f830a15d-4d8b-4708-b5d4-f718d3a9be8c",
+            "userCost": 15.511985870,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e23f58c1-2d95-4b1c-8a19-3f9c870345cb",
+            "userCost": 13.789890500,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2963d0c4-baf5-48b5-bf4a-0022a13a0921",
+            "userCost": 14.584195620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "4f781294-9bf1-41a4-8121-32399ebcf88e",
+            "userCost": 14.789611150,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ad999397-0d1a-49f3-8ed0-a866e020f914",
+            "userCost": 0.934953050,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8b4a2dc3-1a2f-40fc-b42c-f11d9d7f4bee",
+            "userCost": 8.946034750,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b2b0d0a9-260b-49b2-8fc6-5ec87b96b6ea",
+            "userCost": 3.553374540,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d25faf43-5e95-4a09-bc6b-09d0d86a169a",
+            "userCost": 6.722978980,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0c83d42a-2e5b-4927-ae9f-20139b75e700",
+            "userCost": 11.407497910,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "c598c2d9-2970-4522-8809-05ef20e22327",
+            "userCost": 9.419240010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "51fe9a98-582e-44fd-a352-47bb9aadb685",
+            "userCost": 8.704316190,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e3c83376-d5c7-41a8-8230-19e7383ac9fc",
+            "userCost": 15.441414120,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "a1b37207-5158-42bb-8ca0-4c890fbfbec1",
+            "userCost": 3.146535600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "077301bd-ddad-44a0-8671-f6c34cfbb600",
+            "userCost": 9.808814550,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6a703e6a-f9aa-4489-8d03-448bd8a39229",
+            "userCost": 8.958706180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "082086da-5fa0-4de8-8876-043925069153",
+            "userId": "6a703e6a-f9aa-4489-8d03-448bd8a39229",
+            "userCost": 7.503274990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2dc39c1f-a2dd-42d6-9cd7-765b3a6ed8a4",
+            "userCost": 7.401390600,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "61d22df2-1d78-47ea-99be-6c00f0e18f4e",
+            "userCost": 17.591818990,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "13263a78-6669-4e51-9e68-9b8768353bb4",
+            "userCost": 3.668794860,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "0b92288e-88cf-4e28-8d98-99051d4d19d9",
+            "userCost": 9.861518710,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e18adc2c-44d4-401c-89f3-24d7ea6fc346",
+            "userCost": 13.689015390,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "14230560-e436-456d-b7d3-ab815aed5815",
+            "userCost": 7.762516110,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2dc45ee1-4940-4cee-9d39-7ba0c2fe4831",
+            "userCost": 8.746928850,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8c69bebe-5791-4bb6-9903-b8add15d13d4",
+            "userCost": 8.515124520,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "56cb81fb-45e5-4937-9653-2e329fa76f23",
+            "userCost": 2.943306480,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "be54bd62-5057-40b7-85d1-5060f54350a8",
+            "userCost": 15.353003390,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "f805d510-3920-4a03-a8c8-535d5704161e",
+            "userCost": 12.167614940,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "41263f8c-3ce4-4216-84f1-4bf04df89a52",
+            "userCost": 10.467499280,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d893b45f-18d5-46d5-8e10-f04b2f300df3",
+            "userCost": 11.079975620,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "2b6f4f01-1415-4fb2-a2dd-13148c40df7e",
+            "userCost": 15.267160930,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "cc4c9a02-7c1f-4590-aebb-25e2dbf3f7a7",
+            "userCost": 4.022256010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "39fce6a4-1e71-4561-9fa9-6bda4e78c5d5",
+            "userCost": 10.828339770,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "4b951e27-a28d-430c-b482-458c81d2c407",
+            "userCost": 11.378998530,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7c2c5247-c269-4235-949c-26cddf5ae9fc",
+            "userCost": 8.350984900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ab6b5de6-f62f-4c2a-824c-334425dce8f5",
+            "userCost": 2.475793730,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "663e1fdf-ec92-48bb-9687-287bb5375188",
+            "userCost": 16.652218160,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b79cbe4a-2ca2-4cc9-983b-330e225a00c6",
+            "userCost": 11.257603160,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9f3fc760-4079-4a06-b839-d0b9918c4411",
+            "userCost": 14.502512900,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ec65ee81-2eff-4653-94c5-e606bf5c5806",
+            "userCost": 5.976826630,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b6afdc11-adc6-4ba0-b3c0-906b0a51f2be",
+            "userCost": 12.799557950,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "667cadf3-b33d-4af6-8d7d-dfb19931b0d2",
+            "userCost": 11.403542560,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "662a6b2c-be0d-451d-8562-f2cc694fff81",
+            "userCost": 7.672897840,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d09869c6-63c2-44c2-9694-262c8f1e7eaa",
+            "userCost": 9.925945510,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "10e5626c-5ff4-4ece-8d97-c345beaf8ebb",
+            "userCost": 7.180813670,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "8a5d36b6-0b93-4908-bbde-e78f93f8ae62",
+            "userCost": 5.645586330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "70dc1dd1-91c4-4a1b-b4a3-b1b394db50d0",
+            "userCost": 6.363089330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "7a4f5993-df00-44a8-aae3-3376e195cd5c",
+            "userCost": 9.433900560,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ce8255da-4eeb-4df1-9f6d-43593f722e22",
+            "userCost": 9.650190330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "3691b755-2584-4b5c-9a02-eea8e66571e4",
+            "userCost": 5.778130030,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d6240354-e330-46d7-a7c4-02287dd15666",
+            "userCost": 12.470738180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "241df0bb-ec01-4f0c-82ba-bd98ffe21e6e",
+            "userCost": 3.832307540,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "da0519c8-8a4c-403e-a65c-a9d71da5c518",
+            "userCost": 8.492105010,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "9ca6cca5-3dda-4b45-adb4-6ae3b70e407a",
+            "userCost": 10.738399510,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "615c5379-4403-4391-b734-e49701a4eb07",
+            "userCost": 10.739903180,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "6d88bbec-4018-47f9-aaff-00078b78ccad",
+            "userCost": 8.993589780,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "e6ed10db-c881-4394-a818-16f9a8a3d791",
+            "userCost": 8.913738580,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "d91b3478-1e93-4e76-9386-441c3682799d",
+            "userCost": 4.493624240,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "988262c1-109c-4d55-a1d7-5d2def0337e7",
+            "userCost": 10.254604790,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b8978997-60c0-4e66-8516-d4ef9acbd0f5",
+            "userCost": 5.810091420,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "b7b908ab-ac12-488f-9a47-716ad8bacee3",
+            "userCost": 4.551389330,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "dbc4b017-63a2-4c7a-9288-a0f6b0f7b702",
+            "userCost": 17.318802910,
+            "year": 2025,
+            "month": 6
+        },
+        {
+            "tenantId": "fa83de69-c58f-44c2-98c8-10a5818ca89d",
+            "userId": "ad6f3650-cc09-45ae-8063-f46c7ceb36ea",
+            "userCost": 8.644488110,
+            "year": 2025,
+            "month": 6
+        }
+    ]
+}
